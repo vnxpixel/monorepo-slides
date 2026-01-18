@@ -19,7 +19,6 @@ routerMode: hash
 ---
 
 <div
-  translate-x-14
   transition duration-800 ease-out
 >
 
@@ -29,20 +28,10 @@ routerMode: hash
 
 Consolidating multiple repositories into one unified codebase
 
+<span ml-108>by VINLI</span>
+
 </div>
 
-<div
-  v-click mt-8 flex justify-center
-  transition duration-500 ease-in-out
-  :class="$clicks < 1 ? 'opacity-0 scale-95' : 'opacity-100 scale-100'"
->
-  <div
-    border="2 solid white/10" bg="white/5" backdrop-blur-sm
-    rounded-lg px-6 py-3 flex items-center gap-3
-  >
-    <span text-lg>Angular 21 | pnpm Workspaces | Shared Components</span>
-  </div>
-</div>
 
 ---
 class: py-8
