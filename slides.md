@@ -24,10 +24,10 @@ routerMode: hash
 >
 
 <h1>
-  OLCT Frontend Monorepo
+  OLCT Monorepo
 </h1>
 
-Consolidating 5 repositories into one unified codebase
+Consolidating multiple repositories into one unified codebase
 
 </div>
 
